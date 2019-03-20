@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F1F991A421B90143004194EC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1F991A321B90143004194EC /* main.cpp */; };
+		F1F991AE21B90184004194EC /* BillRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1F991AA21B90184004194EC /* BillRecord.cpp */; };
+		F1F991AF21B90184004194EC /* BillSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1F991AD21B90184004194EC /* BillSystem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F1F991A021B90143004194EC /* MohammadFawazSiddiqi_5465163_CSCI251Ass4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MohammadFawazSiddiqi_5465163_CSCI251Ass4; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F991A321B90143004194EC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F1F991AA21B90184004194EC /* BillRecord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillRecord.cpp; sourceTree = "<group>"; };
+		F1F991AB21B90184004194EC /* BillSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillSystem.h; sourceTree = "<group>"; };
+		F1F991AC21B90184004194EC /* BillRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillRecord.h; sourceTree = "<group>"; };
+		F1F991AD21B90184004194EC /* BillSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillSystem.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		F1F991A221B90143004194EC /* MohammadFawazSiddiqi_5465163_CSCI251Ass4 */ = {
 			isa = PBXGroup;
 			children = (
+				F1F991AC21B90184004194EC /* BillRecord.h */,
+				F1F991AA21B90184004194EC /* BillRecord.cpp */,
+				F1F991AB21B90184004194EC /* BillSystem.h */,
+				F1F991AD21B90184004194EC /* BillSystem.cpp */,
 				F1F991A321B90143004194EC /* main.cpp */,
 			);
 			path = MohammadFawazSiddiqi_5465163_CSCI251Ass4;
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1F991A421B90143004194EC /* main.cpp in Sources */,
+				F1F991AF21B90184004194EC /* BillSystem.cpp in Sources */,
+				F1F991AE21B90184004194EC /* BillRecord.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
